@@ -1,0 +1,69 @@
+.latest-match-container {
+  width: 90%;
+  color: white;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #0f172a;
+  border-radius: 10px;
+}
+
+.competing-team-image {
+  width: 70%;
+}
+
+p {
+  font-size: 13px;
+  margin: 4px;
+}
+
+.latest-match-container-1 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+  width: 33%;
+
+  height: 100%;
+}
+
+.latest-match-container-2 {
+  width: 33%;
+
+  text-align: center;
+}
+.latest-match-container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 33%;
+
+  height: 100%;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .latest-match-container {
+    flex-direction: column;
+  }
+  .latest-match-container-1 {
+    width: 90%;
+    align-items: center;
+  }
+
+  .latest-match-container-2 {
+    width: 90%;
+    align-items: center;
+  }
+  .latest-match-container-3 {
+    width: 90%;
+    height: 100%;
+    align-items: center;
+  }
+}
